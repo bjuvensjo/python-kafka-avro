@@ -8,6 +8,7 @@
        conda create -n python-kafka-avro python=3.8 autopep8 flake8 jedi more-itertools pytest pytest-cov requests yapf
        conda activate python-kafka-test 
        pip install avro-python3
+       pip install confluent-kafka
 
 
 ## Usage
@@ -25,3 +26,8 @@ The precondition for them to work is a running Kafka Broker on localhost:9092.
 
 https://kafka.apache.org/
 https://avro.apache.org/docs/current/gettingstartedpython.html
+
+## Comment
+
+If using Confluent Schema registry, see for instance 
+https://github.com/confluentinc/confluent-kafka-python/blob/master/examples/avro_producer.py
