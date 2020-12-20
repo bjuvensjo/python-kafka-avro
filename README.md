@@ -4,7 +4,8 @@
 
 1. Create a virtual environment
 
-       conda create -n python-kafka-test python=3.8 autopep8 flake8 jedi more-itertools pytest pytest-cov requests yapf
+
+       conda create -n python-kafka-avro python=3.8 autopep8 flake8 jedi more-itertools pytest pytest-cov requests yapf
        conda activate python-kafka-test 
        pip install avro-python3
 
