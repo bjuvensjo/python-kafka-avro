@@ -79,4 +79,3 @@ def parse_args(args):
 
 if __name__ == '__main__':  # pragma: no cover
     main(**parse_args(argv[1:]).__dict__)
-    # main(['localhost:9092'], 'test-topic', 'test-group', 'consumer1')
